@@ -1,0 +1,80 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    overflow-y:scroll;
+ }
+
+
+ .head{
+  text-align: center;
+  font-family: myfont;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(76, 235, 142);
+ 
+}
+ 
+ @font-face {
+     font-family: myfont;
+     src: url("font.ttf");
+ }
+
+#timer{
+  height: auto;
+  width: auto;
+  font-weight: bold;
+  font-size: 45px;
+  margin-top: 150px;
+  text-align: center;
+  padding-left: 0px;
+
+}
+#hour,#min,#sec,#ms{
+  width: 70px;
+  font-size: 45px;
+  background-color: black;
+  display: inline-block;
+  color:white;
+  border-radius: 10px;
+  margin-left: 0px;
+  box-shadow: 2px 2px 7px white;
+}
+
+p{
+  font-size: 33px;
+  background-color: grey;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+button{
+   outline: none;
+   border: none;
+   padding: 5px;
+   width: 95px;
+   font-weight: bolder;
+   font-size: 20px;
+   font-family: myfont;
+   border-radius: 5px;
+   color: white;
+   letter-spacing: 2px;
+   background-color: rgba(4, 104, 219, 0.993);
+ 
+}
+button:active{
+  background-color:  rgba(1, 80, 170, 0.993);
+}
+
+footer{
+  background-color: #57606f;
+  text-align: center;
+  padding: 20px;
+
+}
